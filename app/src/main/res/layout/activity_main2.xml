@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity"
+    android:padding="10dp"
+    android:background="@drawable/fullscreen"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Daddies"
+        android:textColor="#FF3D00"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="40sp"
+        />
+
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/bg_item"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginBottom="12dp">
+
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/differenceengine"
+
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/black"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Computer"
+                android:textSize="28dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="#0467B6"
+                android:text="Charles Babbage"
+
+                android:layout_marginBottom="12dp"
+/>
+            />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/bg_item"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginBottom="12dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/img" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/black"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modern Computer Science"
+                android:textSize="24dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="#0467B6"
+                android:text="Alan Turing"
+
+                android:layout_marginBottom="12dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/bg_item"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/img_1" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="12dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/black"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personal Computers"
+                android:textSize="28dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="#0467B6"
+                android:text="Henry Edward Roberts
+"
+
+                android:layout_marginBottom="12dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="32dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_item"
+
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/next"
+            android:soundEffectsEnabled="true"
+            android:hapticFeedbackEnabled="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/button"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Next Knowledge"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="32dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_item"
+
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/next1"
+            android:layout_width="wrap_content"
+
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="0dp"
+            android:text="Go Back"
+            android:background="@drawable/goback"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
